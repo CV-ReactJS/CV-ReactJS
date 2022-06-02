@@ -4,7 +4,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LanguageIcon from '@mui/icons-material/Language';
 import CallIcon from '@mui/icons-material/Call';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { attributes } from '../../../../../content/Home.md';
+import { attributes } from '/content/Home.md';
 import './Card.scss';
 
 const Card = () => {

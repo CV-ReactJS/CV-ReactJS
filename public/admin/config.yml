@@ -11,7 +11,7 @@ collections:
     files:
       - label: 'Home'
         name: 'home'
-        file: 'content/Home.md'
+        file: 'src/content/Home.md'
         fields:
           - label: 'Card Section'
             name: 'cardSection'

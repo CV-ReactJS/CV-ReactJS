@@ -1,11 +1,11 @@
-import React from "react";
-import avatar from "../../../../../assets/images/profile.png";
-import EmailIcon from "@mui/icons-material/Email";
-import LanguageIcon from "@mui/icons-material/Language";
-import CallIcon from "@mui/icons-material/Call";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { attributes } from "../../../../../content/Home.md";
-import "./Card.scss";
+import React from 'react';
+import avatar from '../../../../../assets/images/profile.png';
+import EmailIcon from '@mui/icons-material/Email';
+import LanguageIcon from '@mui/icons-material/Language';
+import CallIcon from '@mui/icons-material/Call';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { attributes } from '../../../../../content/Home.md';
+import './Card.scss';
 
 const Card = () => {
   const { yourName, yourJob } = attributes;

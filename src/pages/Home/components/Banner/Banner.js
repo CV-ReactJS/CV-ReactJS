@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import Card from "./Card/Card";
-import { Link } from "react-scroll";
-import "./Banner.scss";
-import ButtonScrollTop from "../../../../components/ButtonScrollTop/Button";
-import logo from "../../../../assets/images/profile.png";
-import { attributes } from "../../../../content/Home.md";
+import React, { useState } from 'react';
+import Card from './Card/Card';
+import { Link } from 'react-scroll';
+import './Banner.scss';
+import ButtonScrollTop from '../../../../components/ButtonScrollTop/Button';
+import { attributes } from '../../../../content/Home.md';
 
 const Banner = () => {
-  const { yourImage } = attributes;
+  const { image } = attributes;
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const handleOpenMenu = () => {
@@ -16,14 +15,10 @@ const Banner = () => {
 
   return (
     <section id='banner' className='banner'>
-      <nav id='theMenu' className={toggleMenu ? "menu menu__open" : "menu"}>
+      <nav id='theMenu' className={toggleMenu ? 'menu menu__open' : 'menu'}>
         <div className='menu__wrap'>
           <div className='logo__flat'>
-            <img
-              alt='personal logo'
-              className='img__responsive'
-              src={yourImage}
-            />
+            <img alt='personal logo' className='img__responsive' src={image} />
           </div>
           <br />
           <Link to='banner' spy={true} smooth={true} duration={500}>
@@ -65,21 +60,21 @@ const Banner = () => {
           <div className='toggle__normal'>
             <i
               className={`material-icons top__bar ${
-                toggleMenu ? "top__transform" : ""
+                toggleMenu ? 'top__transform' : ''
               }`}
             >
               remove
             </i>
             <i
               className={`material-icons middle__bar ${
-                toggleMenu ? "middle__transform" : ""
+                toggleMenu ? 'middle__transform' : ''
               }`}
             >
               remove
             </i>
             <i
               className={`material-icons bottom__bar ${
-                toggleMenu ? "bottom__transform" : ""
+                toggleMenu ? 'bottom__transform' : ''
               }`}
             >
               remove

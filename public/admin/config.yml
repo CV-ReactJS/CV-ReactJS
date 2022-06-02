@@ -8,11 +8,11 @@ publish_mode: editorial_workflow # For Drafts
 collections:
   - name: 'content'
     label: 'Content Folder'
-    folder: 'content'
-    files:
+    folder: '/content'
+    fields:
       - label: 'Home'
         name: 'home'
-        file: 'src/content/Home.md'
+        file: '/content/Home.md'
         fields:
           - label: 'Card Section'
             name: 'cardSection'

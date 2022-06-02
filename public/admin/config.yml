@@ -6,8 +6,9 @@ media_folder: 'public/uploads' # Where media files will be stored
 public_folder: '/uploads' # Where the media files can be accesed from the server
 publish_mode: editorial_workflow # For Drafts
 collections:
-  - name: 'pages'
-    label: 'Pages'
+  - name: 'content'
+    label: 'Content Folder'
+    folder: 'content'
     files:
       - label: 'Home'
         name: 'home'

@@ -3,7 +3,7 @@ import Card from './Card/Card';
 import { Link } from 'react-scroll';
 import './Banner.scss';
 import ButtonScrollTop from '../../../../components/ButtonScrollTop/Button';
-import { attributes } from '../../../../content/Home.md';
+import { attributes } from '../../../../../content/Home.md';
 
 const Banner = () => {
   const { image } = attributes;
